@@ -12,29 +12,63 @@
 
 		<title>曾许曌秋(Eliot) | personal intro</title>
 		
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
+        <!-- external CSS link -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/fullpage.css">
 		<link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Baumans|Satisfy&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Short+Stack&display=swap" rel="stylesheet">
 </head>
 
 <body>
-        <hgroup class="text-magic" data-word="Personal Intro">
-                Personal Intro
-                <div class="white"></div>
-                <p class="dis">If you are looking for my formal Info, please see <a href="https://zxzq.me/resume" target="_blank">my resume</a></p>
-        </hgroup>
-        
-        
-	<div id="container"><a href="#test">
-		<img class="float" src="./images/megumin.gif" rel="megumin!">
-    </a></div><!-- #container -->
-    <div class="test" id="test">
-        <p>test!</p>
+            <img class="float left-bottom" src="images/testmegumin.jpg!d" style="width: 200px;">
+                    
+            <div class="float right-bottom" id="container"><a href="#test">
+                        <img src="./images/megumin.gif" rel="megumin!">
+            </a></div><!-- #container -->
+
+    <div id="fullpage">
+
+        <div class="section" id="section 0">
+            <hgroup class="text-magic" data-word="現在公開可能な情报">
+                    現在公開可能な情报
+            <div class="white"></div>
+            <p class="reveal">Intelligence revealed at present</p>
+                    <p class="dis">If you are looking for my formal Info, please see <a href="https://zxzq.me/resume" target="_blank">my resume</a></p>
+            </hgroup>
+        </div><!-- section 0 -->
+
+        <div class="section" id="section1">
+            <section id="sec1">
+                <h1>Why sorakaru</h1>
+                <p>From my name <b>曌</b>, formed by '明' + '空', which in Japanese '明る'(akaru, い omitted) and '空(sora)'</p>
+                <p>曌 is a special char created by <a target="_blank" href="https://en.wikipedia.org/wiki/Wu_Zetian" rel="wiki of Wu Zhao">Empress Consort Wu</a>, Tang Dynasty to show her great ambition </p>
+            </section>
+        </div>
+
+        <div class="section" id="section2">
+                <section id="sec2">
+                    <h1><S>热爱物理的程序员</S>(Fake)</h1>
+                    <p>Currently Learning Physics and CS at Kuang Yaming Honor School, NJU. Better at Physics.</p>
+                </section>
+        </div>
+
+        <div class="section" id="section3">
+                <section id="sec3">
+                    <h1>Favorite character is <a href="https://typemoon.fandom.com/wiki/Playable_Saber_(Fate/Extra)" target="_blank" rel="wiki of nero fate">nero(尼禄)</a>. And needless to say, love <a>megumin(惠惠)</a> also</h1>
+                    <p>Reason currently <unrevealed>unreavaled</unrevealed></p>
+                    <p>Btw, kato Megumi seem to also be Megumin</p>
+                </section>
+        </div>
+    
     </div>
+
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['white', 'white', 'white', 'white', '#ccddff']
+        });
+    </script>
+
 </body>
 </html>
 
