@@ -21,7 +21,7 @@
 
 <body>
             <img class="float left-bottom" src="images/testmegumin.jpg!d" style="width: 200px;">
-            <img class="float right-bottom" src="./images/megumin.gif" rel="megumin!">
+            <img class="float right-bottom" id="min" src="./images/megumin.gif" rel="megumin!">
                     
     <div id="fullpage">
 
@@ -51,9 +51,9 @@
 
         <div class="section" id="section3">
                 <section id="sec">
-                    <h1>Favorite character is <a href="https://typemoon.fandom.com/wiki/Playable_Saber_(Fate/Extra)" target="_blank" rel="wiki of nero fate">nero(尼禄)</a>. And needless to say, love <a>megumin(惠惠)</a> also</h1>
+                    <h1>Favorite character is <a href="https://zh.moegirl.org/%E5%B0%BC%E7%A6%84%C2%B7%E5%85%8B%E5%8A%B3%E7%8B%84%E4%B9%8C%E6%96%AF(Fate)" target="_blank" rel="wiki of nero fate">nero(尼禄)</a>. And needless to say, love <a href="https://zh.moegirl.org/%E6%83%A0%E6%83%A0" target="_blank" rel="wiki for megumin">megumin(惠惠)</a> also</h1>
                     <p>Reason currently <unrevealed>unreavaled</unrevealed></p>
-                    <p>Btw, kato Megumi seem to also be Megumin</p>
+                    <p>Btw, <b onmouseover="overkato()" onmouseout="outkato()">kato Megumi</b> seem to also be Megumin</p>
                 </section>
         </div>
     
@@ -64,6 +64,13 @@
         var myFullpage = new fullpage('#fullpage', {
             sectionsColor: ['white', 'white', 'white', 'white', '#ccddff']
         });
+        function overkato() {
+            document.getElementById('min').src="images/kato.png";
+        }
+
+        function outkato() {
+            document.getElementById('min').src="images/megumin.gif";
+        }
     </script>
 
 </body>

@@ -88,7 +88,9 @@ a {
     opacity: 0.4;
     filter: blur(2px);
 }
-
+#min {
+    width: 300px;
+}
 /* 
  *      share
  */
@@ -111,7 +113,9 @@ unrevealed {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    padding: 0 5px;
+    padding: 5px 5px;
+    transform: rotateZ(-15deg) scaleY(0.8) ;
+    opacity: 0.5;
 }
 
 /*
@@ -124,8 +128,10 @@ unrevealed {
          margin: auto 10%;
      }
      .right-bottom {
-         width: 200px;
          right: -50px;
+     }
+     #min {
+        width: 200px;
      }
      .float {
          opacity: 0.4;
