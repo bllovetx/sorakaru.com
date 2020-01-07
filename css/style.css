@@ -1,0 +1,21 @@
+/*
+
+Project Name:  Personal intro for 曾许曌秋 (Eliot)
+Author: 曾许曌秋 (eliot) | zxzq.me 
+At: Nanjing University
+
+*/
+
+/*
+    float
+*/
+
+.float {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.float:hover {
+    opacity: 0.4;
+}
