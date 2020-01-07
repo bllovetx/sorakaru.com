@@ -123,6 +123,10 @@ unrevealed {
          font-size: 15px;
          margin: auto 10%;
      }
+     .right-bottom {
+         width: 200px;
+         right: -50px;
+     }
      .float {
          opacity: 0.4;
      }
