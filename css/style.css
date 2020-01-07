@@ -120,6 +120,7 @@ unrevealed {
 
  @media only screen and (max-width: 900px) {
      #sec {
+         font-size: 15px;
          margin: auto 10%;
      }
      .float {
