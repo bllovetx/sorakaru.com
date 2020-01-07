@@ -24,6 +24,16 @@ body {
     font-size: 10rem;
 }
 
+.dis {
+    font-size: 15px;
+    color: gray;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
 
 /*
     float
