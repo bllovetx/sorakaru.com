@@ -46,6 +46,8 @@
                 <section id="sec">
                     <h1><S>热爱物理的程序员</S>(Fake)</h1>
                     <p>Currently Learning Physics and CS at Kuang Yaming Honor School, NJU. Better at Physics.</p>
+                    <h1><fake id="fake" onmouseover="overFake()" onmouseout="outFake()">唯心的</fake> 唯物主义者</h1>
+                    <p>Reckon experiment the only way to truth. Nevertheless, also firmly believe in the great impact caused by emotion, spirit, etc. </p>
                 </section>
         </div>
 
@@ -53,7 +55,7 @@
                 <section id="sec">
                     <h1>Favorite character is <a href="https://zh.moegirl.org/%E5%B0%BC%E7%A6%84%C2%B7%E5%85%8B%E5%8A%B3%E7%8B%84%E4%B9%8C%E6%96%AF(Fate)" target="_blank" rel="wiki of nero fate">nero(尼禄)</a>. And needless to say, love <a href="https://zh.moegirl.org/%E6%83%A0%E6%83%A0" target="_blank" rel="wiki for megumin">megumin(惠惠)</a> also</h1>
                     <p>Reason currently <unrevealed>unreavaled</unrevealed></p>
-                    <p>Btw, <b onmouseover="overkato()" onmouseout="outkato()">kato Megumi</b> seem to also be Megumin</p>
+                    <p>Btw, <b onmouseover="overKato()" onmouseout="outKato()">kato Megumi</b> seem to also be Megumin</p>
                 </section>
         </div>
     
@@ -64,13 +66,26 @@
         var myFullpage = new fullpage('#fullpage', {
             sectionsColor: ['white', 'white', 'white', 'white', '#ccddff']
         });
-        function overkato() {
+        /*--    Kato    --*/
+        function overKato() {
             document.getElementById('min').src="images/kato.png";
         }
 
-        function outkato() {
+        function outKato() {
             document.getElementById('min').src="images/megumin.gif";
         }
+
+        /*--    Fake    --*/
+        function overFake() {
+            document.getElementById('fake').innerHTML="坚定的";
+            document.getElementById('fake').style.opacity="1";
+        }
+
+        function outFake() {
+            document.getElementById('fake').innerHTML="唯心的";
+            document.getElementById('fake').style.opacity="0.2";
+        }
+        
     </script>
 
 </body>
